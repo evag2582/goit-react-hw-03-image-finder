@@ -1,6 +1,5 @@
 // Searchbar.js
 import React, { useState } from 'react';
-import css from '../styles.css';
 import '../index';
 
 const Searchbar = ({ onSearch }) => {
