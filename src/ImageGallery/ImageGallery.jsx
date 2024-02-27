@@ -3,7 +3,6 @@ import ImageGalleryItem from './ImageGalleryItem';
 import LoadMoreButton from '../Button/LoadMoreButton';
 import Loader from '../Loader/Loader';
 import Modal from '../Modal/Modal';
-import css from '../styles.css';
 
 const ImageGallery = ({ images, onLoadMore, loading }) => {
   const [selectedImage, setSelectedImage] = useState(null);
